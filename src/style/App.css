@@ -1,8 +1,19 @@
+@import "./header/header.css";
+@import "./body/body.css";
+@import "./footer/footer.css";
 @import "reset.css";
-@import "./header/logo.css";
 
 #root {
-  height: 100%;
-  width: 100%;
-  padding-top: 20vh;
+  box-sizing: border-box;
+  height: auto;
+  width: 100vw;
+}
+
+#header, #body {
+  padding: 2rem;
+}
+
+#container {
+  display: grid;
+  grid-template-rows: repeat(3 auto);
 }

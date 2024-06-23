@@ -1,0 +1,33 @@
+#footer {
+  height: auto;
+  width: 100%;
+  background-color: rgb(31, 169, 54);
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+
+#contacts {
+  display: grid;
+  grid-template-rows: 13vh 12vh 10vh;
+  font-size: larger;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+#note {
+  font-size: xx-large;
+  margin-bottom: 1vh;
+}
+
+#profile-links img {
+  height: 2em;
+  margin: 2vw;
+}
+
+#prof-pic {
+  height: 50vh;
+  background-image: url('src/assets/profile_pic.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

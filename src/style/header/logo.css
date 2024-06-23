@@ -17,12 +17,12 @@
 }
   
 #logo {
-  height: 300px;
-  width:  350px;
+  height: 3em;
+  width:  4em;
   margin: auto;
   display: grid;
   grid-template-rows: 1fr .75fr 1fr;
-  gap: .75em;
+  gap: .20em;
   transform: rotate(-38deg);
 }
   
@@ -31,7 +31,7 @@
   border: 3px solid black;
   border-radius: 40px 0 40px 40px;
   overflow: hidden;
-  box-shadow: 6px 6px;
+  box-shadow: 1px 1px 3px;
 }
   
 .bars::after {
@@ -39,21 +39,21 @@
   position: absolute;
   left: 0;
   height: 100%;
-  width: 200%;
+  width: 250%;
   background: linear-gradient(to right, rgb(35, 34, 34), rgb(159, 216, 159), rgb(17, 17, 71));
   background-attachment: fixed;
   animation: shimmer-movement 4s linear infinite alternate;
 }
   
 #top-bar {
-  margin-left: 2.5em;
+  margin-left: .80em;
 }
   
 #mid-bar {
-  margin-left: 1.5em;
-  margin-right: 5em;
+  margin-left: .5em;
+  margin-right: 1.4em;
 }
   
 #btm-bar {
-  margin-right: 2.5em;
+  margin-right: .80em;
 }
