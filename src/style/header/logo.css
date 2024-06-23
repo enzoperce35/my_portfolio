@@ -1,0 +1,59 @@
+@keyframes shimmer {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+  
+@keyframes shimmer-movement {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -50%;
+  }
+}
+  
+#logo {
+  height: 300px;
+  width:  350px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr .75fr 1fr;
+  gap: .75em;
+  transform: rotate(-38deg);
+}
+  
+.bars {
+  position: relative;
+  border: 3px solid black;
+  border-radius: 40px 0 40px 40px;
+  overflow: hidden;
+  box-shadow: 6px 6px;
+}
+  
+.bars::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 200%;
+  background: linear-gradient(to right, rgb(35, 34, 34), rgb(159, 216, 159), rgb(17, 17, 71));
+  background-attachment: fixed;
+  animation: shimmer-movement 4s linear infinite alternate;
+}
+  
+#top-bar {
+  margin-left: 2.5em;
+}
+  
+#mid-bar {
+  margin-left: 1.5em;
+  margin-right: 5em;
+}
+  
+#btm-bar {
+  margin-right: 2.5em;
+}

@@ -1,5 +1,8 @@
 @import "reset.css";
+@import "./header/logo.css";
 
 #root {
-  background-color: burlywood;
+  height: 100%;
+  width: 100%;
+  padding-top: 20vh;
 }
