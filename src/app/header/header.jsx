@@ -6,7 +6,7 @@ export default function Header() {
       <div>
         <div id="brand">
           <span><Logo /></span>
-          <span>Edgar</span>
+          <h1>Edgar</h1>
         </div>
         
         <div id="nav"></div>

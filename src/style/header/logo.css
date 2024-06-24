@@ -15,6 +15,10 @@
     translate: -50%;
   }
 }
+
+#logo-cont {
+  position: relative;
+}
   
 #logo {
   height: 3em;
@@ -57,3 +61,4 @@
 #btm-bar {
   margin-right: .80em;
 }
+
