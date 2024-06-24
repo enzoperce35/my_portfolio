@@ -1,4 +1,5 @@
-import Logo from "./logo"
+import Logo from "./logo";
+import Kebab from "./kebab_drawer";
 
 export default function Header() {
   return (
@@ -9,7 +10,9 @@ export default function Header() {
           <h1>Edgar</h1>
         </div>
         
-        <div id="nav"></div>
+        <div id="nav">
+          <Kebab />
+        </div>
       </div>
     </div>
   )
