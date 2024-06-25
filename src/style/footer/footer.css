@@ -27,7 +27,7 @@
 
 #prof-pic {
   height: 50vh;
-  background-image: url('./src/assets/profile_pic.jpeg');
+  background-image: url('../../assets/images/profile_pic.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }

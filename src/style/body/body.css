@@ -94,19 +94,19 @@
 }
 
 #cv-app {
-  background-image: url('./src/assets/projects/mobile/cv_editor.png');
+  background-image: url('../../assets/projects/mobile/cv_editor.png');
 }
 
 #weather-app {
-  background-image: url('./src/assets/projects/mobile/weather_app.png');
+  background-image: url('../../assets/projects/mobile/weather_app.png');
 }
 
 #memory-card {
-  background-image: url('./src/assets/projects/mobile/memory_card.png');
+  background-image: url('../../assets/projects/mobile/memory_card.png');
 }
 
 #battleship {
-  background-image: url('./src/assets/projects/mobile/battleship.png');
+  background-image: url('../../assets/projects/mobile/battleship.png');
 }
 
 /* Project Summary */
