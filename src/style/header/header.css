@@ -1,11 +1,16 @@
 @import "logo.css";
 @import "kebab.css";
 
+@font-face {
+  font-family: 'BrandName';
+  src: url('./src/assets/fonts/Niramit-SemiBold.ttf'),
+}
+
 #header > :first-child {
   height: auto;
   width: 100%;
   display: inline-flex;
-  padding-bottom: 25vh;
+  padding-bottom: 20vh;
 }
 
 #brand {
@@ -17,6 +22,10 @@
 
 #brand h1 {
   font-size: x-large;
+  font-family: 'BrandName', 'Courier New', Courier, monospace;
+  font-weight: 900;
+  color: rgb(13, 49, 13);
+ 
 }
 
 #nav {

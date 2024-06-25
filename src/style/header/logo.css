@@ -21,12 +21,12 @@
 }
   
 #logo {
-  height: 3em;
-  width:  4em;
+  height: 2.5em;
+  width:  3.5em;
   margin: auto;
   display: grid;
   grid-template-rows: 1fr .75fr 1fr;
-  gap: .20em;
+  gap: .14em;
   transform: rotate(-38deg);
 }
   
@@ -35,7 +35,7 @@
   border: 3px solid black;
   border-radius: 40px 0 40px 40px;
   overflow: hidden;
-  box-shadow: 1px 1px 3px;
+  box-shadow: 1px 1px;
 }
   
 .bars::after {

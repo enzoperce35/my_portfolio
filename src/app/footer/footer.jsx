@@ -13,8 +13,8 @@ export default function Footer() {
         </div>
       
         <div id="profile-links">
-          <img src="src/assets//links/github.svg" alt="github" />
-          <img src="src/assets/links/linkedin.svg" alt="linkedin" />
+          <img src="./src/assets//links/github.svg" alt="github" />
+          <img src="./src/assets/links/linkedin.svg" alt="linkedin" />
         </div>
       </div>
 
