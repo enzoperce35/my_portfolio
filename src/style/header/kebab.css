@@ -68,10 +68,6 @@ li {
   cursor: pointer;
 }
 
-.nav > li:hover {
-  background: #883535;
-}
-
 .dropdown {
   position: absolute;
   right: 0;

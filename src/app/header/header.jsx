@@ -1,14 +1,16 @@
 import Logo from "./logo";
 import Kebab from "./kebab_drawer";
+import { Link } from "react-router-dom";
 
 export default function Header() {
+  
   return (
     <div id="header">
       <div>
-        <div id="brand">
+        <Link to="/" id="brand">
           <span><Logo /></span>
           <h1>Edgar</h1>
-        </div>
+        </Link>
         
         <div id="nav">
           <Kebab />

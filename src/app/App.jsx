@@ -3,15 +3,13 @@ import Body from './body/body';
 import Footer from './footer/footer';
 import '../style/App.css'
 
-function App() {
+export default function App() {
 
   return (
     <div id='container'>
       <Header />
-      <Body/>
+      <Body />
       <Footer />
     </div>
   )
 }
-
-export default App

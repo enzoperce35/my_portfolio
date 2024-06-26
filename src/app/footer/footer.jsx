@@ -1,4 +1,8 @@
+import {default as github} from '../../assets/links/github.svg';
+import {default as linkedin} from '../../assets/links/linkedin.svg';
+
 export default function Footer() {
+
   return (
     <div id="footer">
       <div id="contacts">
@@ -13,8 +17,8 @@ export default function Footer() {
         </div>
       
         <div id="profile-links">
-          <img src="../src/assets/links/github.svg" alt="github" />
-          <img src="../src/assets/links/linkedin.svg" alt="linkedin" />
+          <img src={github} alt="github" />
+          <img src={linkedin} alt="linkedin" />
         </div>
       </div>
 

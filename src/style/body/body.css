@@ -42,7 +42,6 @@
   animation-name: motto;
   animation-duration: .8s;
   animation-fill-mode: backwards;
- 
 }
 
 #intro > :first-child {
@@ -67,7 +66,7 @@
   gap: 2em;
 }
 
-#project-links div {
+#project-links > * {
   height: auto;
   width: auto;
   display: grid;
@@ -80,7 +79,7 @@
   text-align: center;
 }
 
-#project-links div :not(:first-child) {
+#project-links > * :not(:first-child) {
   padding: 0 1em;
 }
 
@@ -90,7 +89,6 @@
   border-radius: 8px 8px 0 0;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 #cv-app {
@@ -110,9 +108,13 @@
 }
 
 /* Project Summary */
-.proj-sum h2{
+.proj-sum :first-child {
   font-weight: bolder;
   margin-bottom: 10px;
+}
+
+.proj-sum :last-child {
+  line-height: 15pt;
 }
 
 /* Project Links */

@@ -17,3 +17,7 @@
   display: grid;
   grid-template-rows: repeat(3 auto);
 }
+
+a:link {
+  text-decoration: none;
+}
