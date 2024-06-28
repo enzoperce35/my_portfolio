@@ -1,9 +1,10 @@
 import { useState, useRef, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export default function Kebab() {
   const [drawerClosed, setDrawerClosed] = useState(true);
   const sideNavRef = useRef(null);
+  const {page} = useParams();
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
@@ -23,6 +24,15 @@ export default function Kebab() {
     setDrawerClosed(!drawerClosed)
   }
   
+  function scrollToBottom() {
+    setTimeout(() => {
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "smooth",
+      });
+    }, 0);
+  }
+
   return (
     <ul ref={sideNavRef} className="nav">
       <div className="kebab" onClick={toggle}>
@@ -40,12 +50,12 @@ export default function Kebab() {
             <Link to="/about">About</Link>
           </li>
           
-          <li>
-            <Link to="/contact">Contact</Link>
+          <li onClick={scrollToBottom} >
+            <Link to={`/${page}` }>Contact</Link>
           </li>
           
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
         </ul>
       </div>

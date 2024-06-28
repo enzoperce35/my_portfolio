@@ -1,7 +1,7 @@
 export default function Home() {
   
   return (
-    <div id="body">
+    <div id="home">
       <div id="intro">
         <p>Hi, I'm Edgar</p>
         <p>A Front-end Web Developer with good work mindset, task and detail oriented, effective and passionate.</p>
@@ -21,8 +21,9 @@ export default function Home() {
             </div>
             
             <span className='proj-links' >
-              <span>Github</span>
-              <span>Live</span>
+              <a href="https://github.com/enzoperce35/weather-app" target="_blank">Github</a>
+
+              <a href="https://enzoperce35.github.io/weather-app/" target="_blank">Live</a>
             </span>
           </div>
           
@@ -32,12 +33,13 @@ export default function Home() {
             <div className="proj-sum">
               <p>Battleship</p>
               
-              <p>A curriculum Javascript project for Code Testing emphasizing the Test-driven development using Jest.</p>
+              <p>A curriculum Javascript project for Code Testing emphasizing Test-driven development using Jest.</p>
             </div>
             
             <span className='proj-links' >
-              <span>Github</span>
-              <span>Live</span>
+              <a href="https://github.com/enzoperce35/battleship" target="_blank">Github</a>
+              
+              <a href="https://enzoperce35.github.io/battleship/" target="_blank">Live</a>
             </span>
           </div>
           
@@ -51,8 +53,9 @@ export default function Home() {
             </div>
             
             <span className='proj-links' >
-              <span>Github</span>
-              <span>Live</span>
+              <a href="https://github.com/enzoperce35/cv_application" target="_blank">Github</a>
+              
+              <a href="https://cv-app02112024.netlify.app/" target="_blank">Live</a>
             </span>
           </div>
           
@@ -60,14 +63,15 @@ export default function Home() {
             <span className='proj-img' id="memory-card"></span>
             
             <div className="proj-sum">
-              <p>Memory Card</p>
+              <p>Memory Cards</p>
 
               <p>A curriculum React project on API control using React's useEffect hook.</p>
             </div>
             
             <span className='proj-links' >
-              <span>Github</span>
-              <span>Live</span>
+              <a href="https://github.com/enzoperce35/memory-card" target="_blank">Github</a>
+              
+              <a href="https://yugioh-memory-game.netlify.app/" target="_blank">Live</a>
             </span>
           </div>
         </div>

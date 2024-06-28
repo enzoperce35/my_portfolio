@@ -17,8 +17,14 @@ export default function Footer() {
         </div>
       
         <div id="profile-links">
-          <img src={github} alt="github" />
-          <img src={linkedin} alt="linkedin" />
+          <a href="https://github.com/enzoperce35" target='_blank'>
+            <img src={github} alt="github" />
+          </a>
+          
+          <a href="https://www.linkedin.com/in/edgar-lorenz-castro-4810872ba/" target='_blank'>
+            <img src={linkedin} alt="linkedin" />
+          </a>
+          
         </div>
       </div>
 
